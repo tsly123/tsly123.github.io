@@ -2,65 +2,52 @@
   type: map
   contents:
     - name: Full Name
-      value: Junshen Xu
+      value: Thai Son Ly
     #- name: Date of Birth
     #  value: 14th March 1879
     - name: Email
-      value: junshen [at] mit [dot] edu
+      value: stly [at] uh [dot] edu
     - name: Languages
-      value: English, Chinese
+      value: English, Vietnamese
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Electrical Engineering and Computer Science
-      institution: Massachusetts Institute of Technology
-      year: 2018 - 2023
-    - title: S.M. in Electrical Engineering and Computer Science
-      institution: Massachusetts Institute of Technology
-      year: 2018 - 2020
-      #description:
-      #  - Description 1.
-      #  - Description 2.
-    - title: B.E. in Engineering Physics
-      institution: Tsinghua University
-      year: 2014 - 2018
-      #description:
-      #  - Description 1.
-      #  - Description 2.
+      institution: University of Houston
+      year: 2021 - Present
+    - title: M.S. in Computer Science
+      institution: Chonnam National Univerity
+      year: 2017 - 2019
+    - title: M.S. in Material Engineering
+      institution: Soongsil Univerity
+      year: 2015 - 2018
+    - title: B.E. in Mechatronics Engineering
+      institution: SaiGon Technology University
+      year: 2009 - 2013
+
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Assistant
-      institution: Massachusetts Institute of Technology
-      year: 2018 - present
+      institution: University of Houston
+      year: 2021 - present
       description:
-        - 2D-to-3D reconstruction
-        - Image quality assessment
-        - 3D pose estimation pipeline for fetal MRI
-    - title: Machine Learning Engineer Intern
-      institution: Instagram Reels Core Ranking @ Meta
-      year: May - Aug 2022
-      description:
-        - Mitigated short video bias in Reels
-    - title: Software Engineer Intern
-      institution: Adwords Insights Team @ Google
-      year: Jun - Aug 2021
-      description:
-        - Improved keyword classification in search ads
-        - Developed algorithms to detect the cold start of bidding strategies
-    - title: Research Scientist Intern
-      institution: United Imaging Intellignece America
-      year: Jun - Aug 2020
-      description:
-        - Multi-modal image registration with neural ODE
-        - Differentiable Digitally Reconstructed Radiograph (DRR)
+        - Natural/Medical Imaging Analysis
+        - Self-supervised Learning
+        - Parameter-efficient Fine-tuning (PEFT)
+        - Fairness
     - title: Research Assistant
-      institution: Stanford University
-      year: Jun - Aug 2017
+      institution: Chonnam National Univeristy
+      year: 2017 - 2019
       description:
-        - Low dose PET reconstruction with deep learning
+        - Emotion Recognition
+    - title: Research Assistant
+      institution: Soongsil Univeristy
+      year: 2015 - 2017
+      description:
+        - 4D Printing
 
 # - title: Open Source Projects
 #   type: time_table
