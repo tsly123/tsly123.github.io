@@ -211,7 +211,163 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- Selected papers -->
           <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
           <div class="publications">
-            <ol class="bibliography"></ol>
+            <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 preview">
+<img id="freqfitpng" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/freqfit.png"><div id="freqfitpng-modal" class="modal2">
+      <span class="closeimg" onclick="document.getElementById('freqfitpng-modal').style.display='none'">×</span>
+      <div class="myCaption"></div>
+      <img class="modal-content2" id="freqfitpng-modal-img">
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("freqfitpng-modal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('freqfitpng');
+      var modalImg = document.getElementById("freqfitpng-modal-img");
+      var captionText = modal.getElementsByTagName('div')[0];
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "";
+      }
+      // Get the <span> element that closes the modal
+      var span = modal.getElementsByTagName('span')[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+      modal.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
+</div>
+
+  <!-- Entry bib key -->
+  <div id="ly2024enhancing" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">Enhancing Parameter-Efficient Fine-Tuning of Vision Transformers through Frequency-Based Adaptation</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      <em>Son Thai Ly</em>, and Hien V Nguyen</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>arXiv preprint arXiv:2411.19297</em>, 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="https://arxiv.org/abs/2411.19297" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
+      <a href="http://arxiv.org/abs/2411.19297" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="https://github.com/tsly123/FreqFiT" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Adapting vision transformer foundation models through parameter-efficient fine-tuning (PEFT) methods has become increasingly popular. These methods optimize a limited subset of parameters, enabling efficient adaptation without the need to fine-tune the entire model while still achieving competitive performance. However, traditional PEFT methods may limit the model’s capacity to capture complex patterns, especially those associated with high-frequency spectra. This limitation becomes particularly problematic as existing research indicates that highfrequency features are crucial for distinguishing subtle image structures. To address this issue, we introduce FreqFit, a novel Frequency Fine-tuning module between ViT blocks to enhance model adaptability. FreqFit is simple yet surprisingly effective, and can be integrated with all existing PEFT methods to boost their performance. By manipulating features in the frequency domain, our approach allows models to capture subtle patterns more effectively. Extensive experiments on 24 datasets, using both supervised and self-supervised foundational models with various state-ofthe-art PEFT methods, reveal that FreqFit consistently improves performance over the original PEFT methods with performance gains ranging from 1% to 16%. For instance, FreqFit-LoRA surpasses the performances of state-of-theart baselines on CIFAR 100 by more than 10% even without applying regularization or strong augmentation.</p>
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 preview">
+<img id="DAMA_pipelinejpg" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/DAMA_pipeline.jpg"><div id="DAMA_pipelinejpg-modal" class="modal2">
+      <span class="closeimg" onclick="document.getElementById('DAMA_pipelinejpg-modal').style.display='none'">×</span>
+      <div class="myCaption"></div>
+      <img class="modal-content2" id="DAMA_pipelinejpg-modal-img">
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("DAMA_pipelinejpg-modal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('DAMA_pipelinejpg');
+      var modalImg = document.getElementById("DAMA_pipelinejpg-modal-img");
+      var captionText = modal.getElementsByTagName('div')[0];
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "";
+      }
+      // Get the <span> element that closes the modal
+      var span = modal.getElementsByTagName('span')[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+      modal.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
+</div>
+
+  <!-- Entry bib key -->
+  <div id="ly2024cellular" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">Cellular data extraction from multiplexed brain imaging data using self-supervised Dual-loss Adaptive Masked Autoencoder</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      <em>Son Thai Ly</em>, Bai Lin, Hung Q Vo, Dragan Maric, and
+      <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Badrinath Roysam, Hien V Nguyen' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>Artificial Intelligence in Medicine</em>, 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="https://www.sciencedirect.com/science/article/pii/S0933365724000708?casa_token=d3f3xvHWWqMAAAAA:0qBCEUR1cFHv8ItpXErzUvvO5g95LsG_LUNMkmtR8kOoaSDbFUofRrMQEu7Db0LNWd1Vcduxg8E" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
+      <a href="http://arxiv.org/abs/2205.05194" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="https://github.com/hula-ai/DAMA" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Reliable large-scale cell detection and segmentation is the fundamental first step to understanding biological processes in the brain. The ability to phenotype cells at scale can accelerate preclinical drug evaluation and system-level brain histology studies. The impressive advances in deep learning offer a practical solution to cell image detection and segmentation. Unfortunately, categorizing cells and delineating their boundaries for training deep networks is an expensive process that requires skilled biologists. This paper presents a novel self-supervised Dual-Loss Adaptive Masked Autoencoder (DAMA) for learning rich features from multiplexed immunofluorescence brain images. DAMA’s objective function minimizes the conditional entropy in pixel-level reconstruction and feature-level regression. Unlike existing self-supervised learning methods based on a random image masking strategy, DAMA employs a novel adaptive mask sampling strategy to maximize mutual information and effectively learn brain cell data. To the best of our knowledge, this is the first effort to develop a self-supervised learning method for multiplexed immunofluorescence brain images. Our extensive experiments demonstrate that DAMA features enable superior cell detection, segmentation, and classification performance without requiring many annotations. In addition, to examine the generalizability of DAMA, we also experimented on TissueNet, a multiplexed imaging dataset comprised of two-channel fluorescence images from six distinct tissue types, captured using six different imaging platforms</p>
+    </div>
+  </div>
+</div>
+</li>
+</ol>
           </div>
 
 
