@@ -20,7 +20,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Comming soon
+Hi! I am currently a fifth-year Ph.D. student at University of Houston majoring in Electrical Engineering and Computer Science. My research focuses on machine learning and developing robust and efficient algorithms driven by both natural and clinical problems, including self-supervised learning, parameter-efficient fine-tuning, as well as fairness. I am advised by Prof. Hien V. Nguyen.
+
+Prior to UH, I received my M.S. degree in Computer Science from Chonnam National University and M.E. degree in Material Engineering from Soongsil University.
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.test
